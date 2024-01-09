@@ -1,0 +1,7 @@
+# Text
+
+Objects that show text inside the game.
+
+## Properties
+
+<table data-view="cards"><thead><tr><th>Key</th><th>Explanation</th><th data-type="select">Type</th></tr></thead><tbody><tr><td>text</td><td>The text to be displayed. Note that (very limited) <a href="https://docs.unity3d.com/Manual/StyledText.html">rich text</a> is supported (bold, italic, inline size, inline color).</td><td></td></tr><tr><td>color</td><td>Color of the text in the hex representation (i.e. <code>"#fff"</code> or <code>"#4568dc"</code>). <br><br>Default: <code>"#fff"</code> (white).</td><td></td></tr><tr><td>size</td><td><p>Font size of the text. Default <code>20</code>.</p><p></p><p>To animate the size of a text, animate its <code>scale</code> property. Do not animate <code>size</code>, which only takes integer values and is resource-intensive.</p></td><td></td></tr><tr><td>align</td><td><p>Text alignment. </p><p></p><p><code>upperLeft</code>, <code>upperCenter</code>, <code>upperRight</code>, <code>middleLeft</code>, <code>middleCenter</code>, <code>middleRight</code>, <code>lowerLeft</code>, <code>lowerCenter</code>, <code>lowerRight</code> are supported. </p><p></p><p>Default: <code>middleCenter</code>.</p></td><td></td></tr><tr><td>letter_spacing</td><td>Letter spacing. <br>Default: <code>0</code>.</td><td></td></tr><tr><td>font_weight</td><td><p>Font weight. </p><p></p><p><code>regular</code>, <code>extraLight</code>, <code>bold</code>, <code>extraBold</code> are supported. </p><p></p><p>Default: <code>regular</code>.</p></td><td></td></tr></tbody></table>
