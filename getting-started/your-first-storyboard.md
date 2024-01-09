@@ -83,7 +83,7 @@ You might have also noticed that the values for `"texts"` or `"sprites"` are not
 
 Here's a non-exhausting list of acceptable values:
 
-<table><thead><tr><th width="185">Type</th><th>Example</th></tr></thead><tbody><tr><td>String / Text</td><td><code>"text"</code></td></tr><tr><td>Number</td><td><code>1</code> <code>1.5</code> <code>-.5</code> (The leading <code>0</code> in <code>-0.5</code> can be omitted)</td></tr><tr><td>Boolean</td><td><code>true</code> <code>false</code> (A boolean value can only be one of these two)</td></tr><tr><td>Object</td><td><code>{ ... }</code></td></tr><tr><td>Array</td><td><code>[ ... ]</code></td></tr></tbody></table>
+<table><thead><tr><th width="185">Type</th><th>Example</th></tr></thead><tbody><tr><td>String / Text</td><td><code>"text"</code></td></tr><tr><td>Number</td><td><code>1</code> <code>1.5</code> <code>-.5</code> (The leading <code>0</code> in <code>-0.5</code> can be omitted)</td></tr><tr><td>Boolean</td><td><code>true</code> <code>false</code> (A boolean value can only be one of these two)</td></tr><tr><td>Object</td><td><code>{ ... }</code></td></tr><tr><td>Array</td><td><code>[ ... ]</code></td></tr><tr><td>Null</td><td><code>null</code> (Implies that this key should contain nothing)</td></tr></tbody></table>
 
 
 

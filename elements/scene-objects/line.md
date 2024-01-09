@@ -8,7 +8,7 @@ Only a very limited subset of parameters in the scene object state are supported
 
 ## Properties
 
-<table data-view="cards"><thead><tr><th>Key</th><th>Explanation</th><th data-type="select">Type</th></tr></thead><tbody><tr><td>pos</td><td>array of vertex objects</td><td></td></tr><tr><td>width</td><td>width of the line segments. Default 0.05.</td><td></td></tr><tr><td>color</td><td>color of the line segments in the hex representation. Default "#fff" (white).</td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th>Key</th><th>Explanation</th><th data-type="select">Type</th></tr></thead><tbody><tr><td><a href="line.md#using-pos">pos</a></td><td>array of vertex objects</td><td></td></tr><tr><td>width</td><td>width of the line segments. Default 0.05.</td><td></td></tr><tr><td>color</td><td>color of the line segments in the hex representation. Default "#fff" (white).</td><td></td></tr></tbody></table>
 
 ## Usage Guide
 
